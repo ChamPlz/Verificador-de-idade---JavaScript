@@ -33,6 +33,8 @@ function verificar(){
             }else if(idade < 50){
                 //adulto
                 return 'adulto'
+            }else if(idade => 102){
+                return 'morto'
             }else{
                 //idoso
                 return 'idoso'
